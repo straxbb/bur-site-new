@@ -1,0 +1,10 @@
+{
+  "name": "bur-site",
+  "private": true,
+  "scripts": {
+    "install:frontend": "npm install --prefix frontend",
+    "build": "node frontend/node_modules/vite/bin/vite.js build --config frontend/vite.config.js",
+    "dev": "node frontend/node_modules/vite/bin/vite.js --config frontend/vite.config.js",
+    "lint": "node frontend/node_modules/eslint/bin/eslint.js frontend/src"
+  }
+}
